@@ -12,10 +12,9 @@ fancybox: true
 sidebar: right
 widgets:
 - category
-- tag
 - tagcloud
-- archive
 - recent_posts
+- archive
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
