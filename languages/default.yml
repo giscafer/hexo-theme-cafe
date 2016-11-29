@@ -1,21 +1,21 @@
-categories: Categories
-search: Search
-tags: Tags
-tagcloud: Tag Cloud
-tweets: Tweets
-prev: Prev
-next: Next
-comment: Comments
-archive_a: Archives
-archive_b: "Archives: %s"
-page: Page %d
-recent_posts: Recent Posts
-newer: Newer
-older: Older
-share: Share
+categories: 分类
+search: 搜索
+tags: 标签
+tagcloud: 标签云
+tweets: 推文
+prev: 上一页
+next: 下一页
+comment: 留言
+archive_a: 归档
+archive_b: 归档：%s
+page: 第 %d 页
+recent_posts: 最新文章
+newer: 上一篇
+older: 下一篇
+share: 分享
 powered_by: Powered by
-theme_by: Theme by
+theme_by: 主题
 rss_feed: RSS Feed
-category: Category
+category: 分类
 tag: Tag
-contact: Contact
+contact: 联系方式
