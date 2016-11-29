@@ -1,0 +1,1 @@
+require('../css/_index.less');
