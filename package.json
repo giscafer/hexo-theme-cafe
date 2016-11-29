@@ -1,5 +1,5 @@
 {
-  "name": "mytheme",
+  "name": "hexo-theme-cafe",
   "version": "0.0.1",
   "description": "a theme for hexo",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/giscafer/hexo-theme-giscafer.git"
+    "url": "git+https://github.com/giscafer/hexo-theme-cafe.git"
   },
   "keywords": [
     "hexo",
@@ -17,17 +17,15 @@
     "blog"
   ],
   "author": "giscafer",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/giscafer/hexo-theme-giscafer/issues"
+    "url": "https://github.com/giscafer/hexo-theme-cafe/issues"
   },
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.5.3",
     "css-loader": "^0.26.0",
     "extract-text-webpack-plugin": "^1.0.1",
-    "less": "^2.7.1",
-    "less-loader": "^2.2.3",
     "postcss-loader": "^1.1.1",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
