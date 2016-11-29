@@ -3,9 +3,12 @@
     <%- partial('_partial/sidebar') %>
   <% } %>
   <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
+    <div id="footer-left">
+      &copy; 2014 - <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>&nbsp;|&nbsp;
+      <%= __('theme_by') %> <a href="https://github.com/giscafer/hexo-theme-cafe/" target="_blank">Cafe</a>
+    </div>
+     <div id="footer-right">
+      <%= __('contact') %>&nbsp;|&nbsp;<%= config.email || config.url %>
     </div>
   </div>
 </footer>
