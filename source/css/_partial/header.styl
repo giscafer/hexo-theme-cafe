@@ -25,6 +25,9 @@
   width: auto
   left: 2%
   margin-top: logo-size * -0.5
+  @media mq-mobile
+    left:12%
+    clear: both
 
 $logo-text
   text-decoration: none
@@ -34,8 +37,11 @@ $logo-text
 #logo
   @extend $logo-text
   font-size: logo-size
-  line-height: logo-size
+  line-height: logo-line-height
   letter-spacing: 1px
+  @media mq-mobile
+    font-size: logo-mobile-size
+    line-height: logo-mobile-line-height
 
 #subtitle
   @extend $logo-text
@@ -49,6 +55,9 @@ $logo-text
 #main-nav
   float: right
   margin-right: 100px
+  @media mq-mobile
+    float: left;
+    margin: 0 0 0 -20px;
 
 $nav-link
   float: left
