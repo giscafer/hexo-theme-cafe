@@ -6,7 +6,7 @@ Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)
 
 响应式，手机预览主题演示demo：
 
-[cafe-qrcode](./cafe-qrcode.png)
+![cafe-qrcode](./cafe-qrcode.png)
 
 
 
