@@ -34,7 +34,13 @@
     <%- partial('post/nav') %>
   <% } %>
 </article>
-
+<% if (!index && post.comments && theme.duoshuo_shortname){ %>
+<%- partial('post/duoshuo', {
+    key: post.slug,
+    title: post.title,
+    url: config.url+url_for(post.path)
+  }) %>
+<% } %>
 <% if (!index && post.comments && config.disqus_shortname){ %>
 <section id="comments">
   <div id="disqus_thread">
