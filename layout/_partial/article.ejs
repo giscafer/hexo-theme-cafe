@@ -24,6 +24,9 @@
     </div>
     <footer class="article-footer">
       <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>
+      <% if (post.comments && theme.duoshuo_shortname){ %>
+        <a href="<%- post.permalink %>#ds-thread" class="article-comment-link"><%= __('comment') %></a>
+      <% } %>
       <% if (post.comments && config.disqus_shortname){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"><%= __('comment') %></a>
       <% } %>
@@ -38,7 +41,7 @@
 <%- partial('post/duoshuo', {
     key: post.slug,
     title: post.title,
-    url: config.url+url_for(post.path)
+    url: post.permalink
   }) %>
 <% } %>
 <% if (!index && post.comments && config.disqus_shortname){ %>
