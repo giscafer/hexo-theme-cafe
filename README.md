@@ -4,10 +4,12 @@ Cafe 主题旨在追求简约、操作简单、阅读舒适度。 或查看英�
 
 Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)
 
-响应式，手机预览主题演示demo：
+
+PC端体验：http://cafe.giscafer.com/
+
+响应式兼容手机端，扫码预览演示demo：
 
 ![cafe-qrcode](./cafe-qrcode.png)
-
 
 
 ## 使用
