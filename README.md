@@ -1,6 +1,6 @@
 # hexo-theme-cafe
 
-Cafe 主题旨在追求简约、操作简单、阅读舒适度。 或查看英文版介绍[Read in English](./README_en.md)
+Cafe 主题旨在追求简约、操作简单、阅读舒适度。 英文版介绍[Read in English](./README_en.md)
 
 Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)
 
@@ -36,17 +36,17 @@ PC端体验：http://cafe.giscafer.com/
 主题 `themes/cafe/_config.yml` 文件内容参考说明配置
 
 ```yml
-# 头部
+# Header
 menu:
   首页: /
   归档: /archives
 rss: /atom.xml
 
-# 内容
+# Content
 excerpt_link: 继续阅读全文 »
 fancybox: true
 
-# 侧边栏
+# Sidebar
 sidebar: right
 widgets:
 - category
@@ -60,17 +60,20 @@ index_widgets:
 # - tagcloud
 # - archive
 
-# 插件行为
+# widget behavior
 archive_type: 'monthly'
 show_count: false
 
-# 其他
+# Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
+# 若使用多说，此处填写的是多说评论账号ID
+# 若使用Disqus，请在博客 config 文件中填写disqus_shortname，并设置duosuo: false关闭多说评论
+duoshuo_shortname: false
 google_plus:
 fb_admins:
 fb_app_id:
+
 
 
 ```

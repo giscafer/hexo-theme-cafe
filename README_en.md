@@ -1,6 +1,6 @@
 # hexo-theme-cafe
 
-Cafe is aimed at the pursuit of simplicity, simple operation, reading comfort. 
+Cafe is aimed at the pursuit of simplicity, simple operation, reading comfort. Read in Chinese[中文介绍](./README.md)
 
 Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)
 
@@ -65,6 +65,9 @@ show_count: false
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
+# 若使用多说，此处填写的是多说评论账号ID
+# 若使用Disqus，请在博客 config 文件中填写disqus_shortname，并设置duosuo: false关闭多说评论
+duoshuo_shortname: false
 twitter:
 google_plus:
 fb_admins:
