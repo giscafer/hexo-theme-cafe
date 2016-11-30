@@ -300,8 +300,14 @@ body {
   font-weight: bold;
 }
 #header {
+  padding-top: 1em;
   position: relative;
   border-bottom: 1px solid #ddd;
+}
+@media screen and (max-width: 479px) {
+  #header {
+    padding-top: 0;
+  }
 }
 #header-outer {
   height: 100%;
@@ -320,12 +326,12 @@ body {
   z-index: -1;
 }
 #header-title {
-  height: 2em;
+  height: 1.6em;
   position: absolute;
   top: 50%;
   width: auto;
   left: 2%;
-  margin-top: -1em;
+  margin-top: -0.8em;
 }
 @media screen and (max-width: 479px) {
   #header-title {
@@ -340,14 +346,14 @@ body {
   font-weight: 100;
 }
 #logo {
-  font-size: 2em;
-  line-height: 0.9em;
+  font-size: 1.6em;
+  line-height: 1.2em;
   letter-spacing: 1px;
 }
 @media screen and (max-width: 479px) {
   #logo {
     font-size: 1.2em;
-    line-height: 1.9em;
+    line-height: 1.7em;
   }
 }
 #subtitle {
@@ -844,6 +850,10 @@ a.article-title:hover {
 .article-share-links:after {
   clear: both;
 }
+.article-share-weibo,
+.article-share-wechat,
+.article-share-qq,
+.article-share-qqzone,
 .article-share-twitter,
 .article-share-facebook,
 .article-share-pinterest,
@@ -856,6 +866,10 @@ a.article-title:hover {
   color: #999;
   text-shadow: 0 1px #fff;
 }
+.article-share-weibo:before,
+.article-share-wechat:before,
+.article-share-qq:before,
+.article-share-qqzone:before,
 .article-share-twitter:before,
 .article-share-facebook:before,
 .article-share-pinterest:before,
@@ -871,11 +885,43 @@ a.article-title:hover {
   margin-left: -10px;
   text-align: center;
 }
+.article-share-weibo:hover,
+.article-share-wechat:hover,
+.article-share-qq:hover,
+.article-share-qqzone:hover,
 .article-share-twitter:hover,
 .article-share-facebook:hover,
 .article-share-pinterest:hover,
 .article-share-google:hover {
   color: #fff;
+}
+.article-share-weibo:before {
+  content: "\f18a";
+}
+.article-share-weibo:hover {
+  background: #cb2027;
+  text-shadow: 0 1px #a21a1f;
+}
+.article-share-wechat:before {
+  content: "\f1d7";
+}
+.article-share-wechat:hover {
+  background: #24bd2a;
+  text-shadow: 0 1px #1d9722;
+}
+.article-share-qq:before {
+  content: "\f1d6";
+}
+.article-share-qq:hover {
+  background: #00aced;
+  text-shadow: 0 1px #008abe;
+}
+.article-share-qqzone:before {
+  content: "\f1d5";
+}
+.article-share-qqzone:hover {
+  background: #cfcb0d;
+  text-shadow: 0 1px #a6a20a;
 }
 .article-share-twitter:before {
   content: "\f099";
@@ -928,6 +974,9 @@ a.article-title:hover {
   display: block;
   max-width: 100%;
   margin: 0 auto;
+}
+#ds-thread div.ds-rounded-top {
+  background: #fff !important;
 }
 #comments {
   background: #fff;
