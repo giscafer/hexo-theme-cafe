@@ -1,8 +1,16 @@
-<% if (is_home() && site.posts.length){%>
+<% if (is_home() && site.posts.length && theme.duoshuo_shortname){%>
   <div class="widget-wrap">
     <h3 class="widget-title"><%= __('hot_comment_posts') %></h3>
     <div class="widget">
          <%- partial('partials/hot-comment-posts') %>
+    </div>
+  </div>
+<% } %>
+<% if (!theme.duoshuo_shortname){ %>
+   <div class="widget-wrap">
+    <h3 class="widget-title"><%= __('hot_comment_posts') %></h3>
+    <div class="widget">
+        <span>此widget基于多说，如需使用，请启用 duoshuo_shortname 属性</span>
     </div>
   </div>
 <% } %>
