@@ -12,6 +12,13 @@ PC端体验：http://cafe.giscafer.com/ 或参考本人博客 [Giscafer's blog](
 ![cafe-qrcode](./cafe-qrcode.png)
 
 
+## 效果截图
+
+![PC演示](https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/assets/pc-display.gif)
+
+![Mobile演示](https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/assets/mobie-display.gif)
+
+
 ## 使用
 
 ### 安装

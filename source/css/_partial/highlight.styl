@@ -32,16 +32,16 @@ $line-numbers
     font-family: font-mono
   code
     background: color-article-code
-    color:color-default
+    color:color-default !important
     border-radius: 4px
     margin: auto 3px
     padding: 0 0.3em
   pre
     @extend $code-block
-    code
+    > code
       background: none
       text-shadow: none
-      color:color-grey
+      color:color-grey !important
       padding: 0
   .highlight
     @extend $code-block

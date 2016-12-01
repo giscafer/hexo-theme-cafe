@@ -11,6 +11,12 @@ There is a demo On a mobile phone：
 [cafe-qrcode](./cafe-qrcode.png)
 
 
+## ScreenShot
+
+![PC display](https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/assets/pc-display.gif)
+
+![Mobile display](https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/assets/mobie-display.gif)
+
 
 ## Usage
 
