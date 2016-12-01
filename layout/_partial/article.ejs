@@ -39,7 +39,7 @@
 </article>
 <% if (!index && post.comments && theme.duoshuo_shortname){ %>
 <%- partial('post/duoshuo', {
-    key: post.slug,
+    key: post.path,
     title: post.title,
     url: post.permalink
   }) %>
