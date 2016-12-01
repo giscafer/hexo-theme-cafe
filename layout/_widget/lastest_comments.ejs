@@ -1,5 +1,5 @@
  <% /*is_home在三级域名失效，原因未查 */ %>
-<% if (!is_archive() && is_home() && site.posts.length && theme.duoshuo_shortname){%>
+<% if (theme.duoshuo_shortname){%>
   <div class="widget-wrap">
     <h3 class="widget-title"><%= __('lastest_comments') %></h3>
     <div class="widget">
