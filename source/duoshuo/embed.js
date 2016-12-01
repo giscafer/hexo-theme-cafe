@@ -2,20 +2,27 @@
 
 function ua_build_html(evt){
     var e=evt.post;
-    var html="<span class=\"ua\">" + sskadmin(e.author) + "</span><span class=\"ua\">" + ua(e.agent) +"</span><span class=\"ua\">"+ os(e.agent) + "</span>" ;
+    var html=ua_getIplocation(e)+"<span class=\"ua\">" + ua_sskadmin(e.author) + "</span><span class=\"ua\">" + ua_html(e.agent) +"</span><span class=\"ua\">"+ os_html(e.agent) + "</span>" ;
     return html;
 }
+function ua_getIplocation(e){
+    var loc='',iplocation=e.iplocation?e.iplocation:'';
+    if(iplocation){
+       loc='<span class="ua"><span class="location">'+iplocation+'</span></span>';
+    }
+    return loc;
+}
 //管理员判断开始
-function sskadmin(e) {
+function ua_sskadmin(e) {
     var ssk = '';
     if (e.user_id ==duoshuoQuery['short_name']) {
-        if (checkMobile()) {
+        if (ua_checkMobile()) {
             ssk = '<span class="ua"><span class="sskadmin"><i class="fa fa-star"></i>博主</span></span><br><br>';
         } else {
             ssk = '<span class="ua"><span class="sskadmin"><i class="fa fa-star"></i>博主</span></span>';
         }
     } else {
-        if (checkMobile()) {
+        if (ua_checkMobile()) {
             ssk = '<br><br>';
         }
     }
@@ -23,7 +30,7 @@ function sskadmin(e) {
 }
 //管理员判断结束
 //移动客户端判断开始
-function checkMobile() {
+function ua_checkMobile() {
     var isiPad = navigator.userAgent.match(/iPad/i) != null;
     if (isiPad) {
         return false;
@@ -36,7 +43,7 @@ function checkMobile() {
 }
 //移动客户端判断结束
 //显UA开始
-function ua(e) {
+function ua_html(e) {
     var r = new Array;
     var outputer = '';
     if (r = e.match(/FireFox\/([^\s]+)/ig)) {
@@ -96,14 +103,14 @@ function ua(e) {
     } else {
         outputer = '<span class="ua_other"><i class="fa fa-globe"></i> 其它浏览器'
     }
-    if (checkMobile()) {
+    if (ua_checkMobile()) {
         Mobile = '<br><br>';
     } else {
         Mobile = '';
     }
     return outputer + "</span>" + Mobile;
 }
-function os(e) {
+function os_html(e) {
     var os = '';
     if (e.match(/win/ig)) {
         if (e.match(/nt 5.1/ig)) {
