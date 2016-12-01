@@ -1,23 +1,32 @@
-# Header
+# 头部导航 Header
 menu:
   首页: /
   归档: /archives
   关于: /aboutme
 rss: /atom.xml
 
-# Content
+# 内容 Content
 excerpt_link: 继续阅读全文 »
 fancybox: true
 
-# Sidebar
+# 侧边栏 Sidebar
 sidebar: right
 widgets:
 - category
 - tagcloud
-- hot_comment_posts
-- lastest_comments
 - recent_posts
+- lastest_comments
+- hot_comment_posts
 - archive
+
+# 提供以下 7 个内置组件
+# - category          # 归类
+# - tag               # 标签
+# - tagcloud          # 云标签
+# - archives          # 归档
+# - recent_posts      # 最新文章
+# - lastest_comments  # 最新评论
+# - hot_comment_posts # 热评文章
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:

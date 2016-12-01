@@ -1,11 +1,11 @@
 # hexo-theme-cafe
 
-Cafe 主题旨在追求简约、操作简单、阅读舒适度。 英文版介绍[Read in English](./README_en.md)
+Cafe 主题旨在追求简约、操作简单、阅读舒适度。 英文版介绍 [Read in English](./README_en.md)
 
 Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)
 
 
-PC端体验：http://cafe.giscafer.com/
+PC端体验：http://cafe.giscafer.com/ 或参考本人博客 [Giscafer's blog](http://giscafer.com)
 
 响应式兼容手机端，扫码预览演示demo：
 
@@ -49,10 +49,13 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- category
-- tagcloud
-- recent_posts
-- archive
+- category          # 归类
+- tag               # 标签
+- tagcloud          # 云标签
+- recent_posts      # 最新文章
+- lastest_comments  # 最新评论
+- hot_comment_posts # 热评文章
+- archives          # 归档
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -104,13 +107,15 @@ Cafe 使用`Fancybox` 展示相册、图片。 您可以使用减记语法或fan
 
 你可以设置`sidebar` 配置侧边栏，有 `left`、`right`、`bottom` 三种选择
 
-Cafe 主题提供 5 个内置 widgets:
+Cafe 主题提供**7**个内置 widgets:
 
-- category
-- tag
-- tagcloud
-- archives
-- recent_posts
+- category          # 归类
+- tag               # 标签
+- tagcloud          # 云标签
+- archives          # 归档
+- recent_posts      # 最新文章
+- lastest_comments  # 最新评论
+- hot_comment_posts # 热评文章
 
 你可以在主题配置文件 `widget` 设置选项设置需要的 widgets。
 

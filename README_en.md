@@ -51,6 +51,8 @@ widgets:
 - tagcloud
 - recent_posts
 - archive
+- lastest_comments
+- hot_comment_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -102,13 +104,15 @@ Cafe uses Fancybox to showcase your photos. You can use Markdown syntax or fancy
 
 You can put your sidebar in left side, right side or bottom of your site by editing sidebar setting.
 
-Cafe provides 5 built-in widgets:
+Cafe provides**7**built-in widgets:
 
 - category
 - tag
 - tagcloud
 - archives
 - recent_posts
+- lastest_comments
+- hot_comment_posts
 
 All of them are enabled by default. You can edit them in `widget` setting.
 
