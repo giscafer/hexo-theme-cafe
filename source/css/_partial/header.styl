@@ -1,6 +1,9 @@
 #header
+  padding-top:1em
   position: relative
   border-bottom: 1px solid color-border
+  @media mq-mobile
+    padding-top:0
 
 #header-outer
   height: 100%
@@ -22,8 +25,12 @@
   height: logo-size
   position: absolute
   top: 50%
+  width: auto
   left: 2%
   margin-top: logo-size * -0.5
+  @media mq-mobile
+    left:12%
+    clear: both
 
 $logo-text
   text-decoration: none
@@ -33,8 +40,11 @@ $logo-text
 #logo
   @extend $logo-text
   font-size: logo-size
-  line-height: logo-size
+  line-height: logo-line-height
   letter-spacing: 1px
+  @media mq-mobile
+    font-size: logo-mobile-size
+    line-height: logo-mobile-line-height
 
 #subtitle
   @extend $logo-text
@@ -48,6 +58,9 @@ $logo-text
 #main-nav
   float: right
   margin-right: 100px
+  @media mq-mobile
+    float: left;
+    margin: 0 0 0 -20px;
 
 $nav-link
   float: left
@@ -100,6 +113,7 @@ $nav-link
 
 #search-form-wrap
   position: absolute
+  z-index: 100
   top: 15px
   width: 150px
   height: 30px

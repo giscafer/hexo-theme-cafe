@@ -37,6 +37,8 @@
   transition: color 0.2s
   a&:hover
     color: color-link
+  @media mq-mobile
+    font-size:1.5em
 
 .article-entry
   @extend $base-style
@@ -214,7 +216,7 @@
 .article-nav-caption
   text-transform: uppercase
   letter-spacing: 2px
-  color: color-border
+  color: color-grey 
   line-height: 1em
   font-weight: bold
   #article-nav-newer &
@@ -270,6 +272,38 @@ $article-share-link
   &:hover
     color: #fff
 
+.article-share-weibo
+  @extend $article-share-link
+  &:before
+    content: "\f18a"
+  &:hover
+    background: color-weibo
+    text-shadow: 0 1px darken(color-weibo, 20%)
+
+.article-share-wechat
+  @extend $article-share-link
+  &:before
+    content: "\f1d7"
+  &:hover
+    background: color-wechat
+    text-shadow: 0 1px darken(color-wechat, 20%)
+
+.article-share-qq
+  @extend $article-share-link
+  &:before
+    content: "\f1d6"
+  &:hover
+    background: color-qq
+    text-shadow: 0 1px darken(color-qq, 20%)
+
+.article-share-qqzone
+  @extend $article-share-link
+  &:before
+    content: "\f1d5"
+  &:hover
+    background: color-qqzone
+    text-shadow: 0 1px darken(color-qqzone, 20%)
+
 .article-share-twitter
   @extend $article-share-link
   &:before
@@ -322,6 +356,7 @@ $article-share-link
     display: block
     max-width: 100%
     margin: 0 auto
+
 /*
 $article-gallery-ctrl
   position: absolute

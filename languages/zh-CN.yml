@@ -2,6 +2,8 @@ categories: 分类
 search: 搜索
 tags: 标签
 tagcloud: 标签云
+hot_comment_posts: 热评文章
+lastest_comments: 最新评论
 tweets: 推文
 prev: 上一页
 next: 下一页
@@ -10,8 +12,8 @@ archive_a: 归档
 archive_b: 归档：%s
 page: 第 %d 页
 recent_posts: 最新文章
-newer: Newer
-older: Older
+newer: 上一篇
+older: 下一篇
 share: 分享
 powered_by: Powered by
 theme_by: 主题

@@ -1,21 +1,32 @@
-# Header
+# 头部导航 Header
 menu:
   首页: /
   归档: /archives
+  关于: /about
 rss: /atom.xml
 
-# Content
+# 内容 Content
 excerpt_link: 继续阅读全文 »
 fancybox: true
 
-# Sidebar
+# 侧边栏 Sidebar
 sidebar: right
 widgets:
 - category
-- tag
 - tagcloud
-- archive
 - recent_posts
+- lastest_comments
+- hot_comment_posts
+- archive
+
+# 提供以下 7 个内置组件
+# - category          # 归类
+# - tag               # 标签
+# - tagcloud          # 云标签
+# - archives          # 归档
+# - recent_posts      # 最新文章
+# - lastest_comments  # 最新评论
+# - hot_comment_posts # 热评文章
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -27,10 +38,17 @@ index_widgets:
 archive_type: 'monthly'
 show_count: false
 
-# Miscellaneous
+# 标签云TagClound
+# 如果启动，则标签云颜色为随机
+tagcloud_color: false 
+
+
+# 其他参数
 google_analytics:
 favicon: /favicon.png
-twitter:
+# 若使用多说，此处填写的是多说评论账号ID
+# 若使用Disqus，请在博客 config 文件中填写disqus_shortname，并设置duosuo: false关闭多说评论
+duoshuo_shortname: giscafe
 google_plus:
 fb_admins:
 fb_app_id:
