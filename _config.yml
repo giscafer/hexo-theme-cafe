@@ -14,6 +14,8 @@ sidebar: right
 widgets:
 - category
 - tagcloud
+- hot_comment_posts
+- lastest_comments
 - recent_posts
 - archive
 
