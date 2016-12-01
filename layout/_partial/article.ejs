@@ -37,12 +37,12 @@
     <%- partial('post/nav') %>
   <% } %>
 </article>
-<% if (!index && post.comments && theme.duoshuo_shortname){ %>
-<%- partial('post/duoshuo', {
-    key: post.path,
-    title: post.title,
-    url: post.permalink
-  }) %>
+<% if (!index && post.comments && theme.duoshuo_shortname){%>
+      <%- partial('post/duoshuo', {
+          key: post.path,
+          title: post.title,
+          url: post.permalink
+        }) %>
 <% } %>
 <% if (!index && post.comments && config.disqus_shortname){ %>
 <section id="comments">
