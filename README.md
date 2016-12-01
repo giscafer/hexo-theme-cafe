@@ -67,7 +67,12 @@ index_widgets:
 archive_type: 'monthly'
 show_count: false
 
-# Miscellaneous
+# 标签云TagClound
+# 如果启动，则会随机自定义标签云颜色
+tagcloud_color: false 
+
+
+# 其他参数
 google_analytics:
 favicon: /favicon.png
 # 若使用多说，此处填写的是多说评论账号ID

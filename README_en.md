@@ -64,6 +64,10 @@ index_widgets:
 archive_type: 'monthly'
 show_count: false
 
+# TagClound Color
+# Colorizes the tag cloud when set true
+tagcloud_color: false 
+
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png

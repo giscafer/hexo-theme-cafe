@@ -14,6 +14,13 @@
 </script>
 <% } %>
 
+<% if (theme.duoshuo_shortname){ %>
+    	<script type="text/javascript">
+        var duoshuoQuery = {short_name:"<%=theme.duoshuo_shortname%>"};
+      </script>
+      <%- js('duoshuo/embed') %>
+<% } %>
+
  <%- js('jquery/jquery.min.js') %>
 
 <% if (theme.fancybox){ %>
