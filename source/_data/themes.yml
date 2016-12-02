@@ -1,0 +1,13 @@
+- name: Cafe
+  description: Pursuit of simplicity, simple operation, reading comfort.
+  link: https://github.com/giscafer/hexo-theme-cafe
+  preview: http://cafe.giscafer.com/
+  tags:
+    - simple
+    - responsive
+    - widget
+    - two_column
+    - comfortable
+    - 中文
+    - chinese
+    - clean
