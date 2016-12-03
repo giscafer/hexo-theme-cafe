@@ -7,6 +7,27 @@
 
 .widget-title
   @extend $block-caption
+  &.categories:before
+    content: "\f0c6"
+    @extend $widget-block
+  &.archive:before
+    content: "\f03c"
+    @extend $widget-block
+  &.tagcloud:before
+    content: "\f02c"
+    @extend $widget-block
+  &.tags:before
+    content: "\f02b"
+    @extend $widget-block
+  &.recent-posts:before
+    content: "\f1ea"
+    @extend $widget-block
+  &.lastest-comments:before
+    content: "\f27b"
+    @extend $widget-block
+  &.hot-comment-posts:before
+    content: "\f075"
+    @extend $widget-block
 
 .widget
   color: color-sidebar-text
