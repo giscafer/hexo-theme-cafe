@@ -2,8 +2,9 @@
 
 Cafe 主题旨在追求简约、操作简单、阅读舒适度。 英文版介绍 [Read in English](./README_en.md)
 
-Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)
+Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)，目前版本主要调整了整体的样式，布局细调，以及新增一些widget等，后期会在使用的过程中不断进行调整。
 
+（色调有点像阮大神博客？是的，有借参考，个人觉得看久了眼睛舒服，如果后期调整或者改动大，该版本也会保留，喜欢的朋友拿去）
 
 PC端体验：http://cafe.giscafer.com/ 或参考本人博客 [Giscafer's blog](http://giscafer.com)
 
@@ -109,6 +110,16 @@ fb_app_id:
 
 
 ## Features
+
+### 社区化
+
+支持国内外主流社区分享：
+
+![share](./assets/share.png)
+
+支持`Disqus`与`多说`两种方式评论
+
+![share](./assets/duoshuo_comment.png)
 
 ### Fancybox
 
