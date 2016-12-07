@@ -46,6 +46,9 @@ menu:
   Archives: /archives
 rss: /atom.xml
 
+# show in footer
+email: 'youremail@outlook.com'
+
 # Content
 excerpt_link: Read More »
 fancybox: true

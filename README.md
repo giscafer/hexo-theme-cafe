@@ -49,6 +49,9 @@ menu:
   归档: /archives
 rss: /atom.xml
 
+# footer底部显示联系邮箱（在博客配置文件下添加email配置也是一样的效果）
+email: 'youremail@outlook.com'
+
 # Content
 excerpt_link: 继续阅读全文 »
 fancybox: true
