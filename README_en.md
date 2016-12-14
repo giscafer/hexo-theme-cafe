@@ -8,7 +8,7 @@ Online Demo：http://cafe.giscafer.com/
 
 There is a demo On a mobile phone：
 
-[cafe-qrcode](./cafe-qrcode.png)
+![cafe-qrcode](./cafe-qrcode.png)
 
 
 ## ScreenShot
