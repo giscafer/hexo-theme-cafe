@@ -151,6 +151,7 @@ Cafe 主题提供**7**个内置 widgets:
 
 你可以在主题配置文件 `widget` 设置选项设置需要的 widgets。
 
+## [开发历史 Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)
 
 ## License
 

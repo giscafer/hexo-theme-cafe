@@ -135,7 +135,7 @@ Cafe provides**7**built-in widgets:
 
 All of them are enabled by default. You can edit them in `widget` setting.
 
-## [开发历史 Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)
+## [Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)
 
 
 
