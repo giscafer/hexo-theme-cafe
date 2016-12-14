@@ -1,0 +1,15 @@
+ <!-- Table of Contents -->
+<% if (!index && page.content && page.toc!==false && theme.content_position==='widget'){ %>
+  <div class="widget-wrap " id="<%= toc(page.content) %>">
+  <% if (theme.content_position==='widget' && theme.content_display_fixed===true){ %>
+    <div class="widget" id="toc-widget-fixed">
+    <% } else { %>
+      <div class="widget" id="toc-widget">
+    <% } %>
+       <strong class="toc-title"><%= __('post_content') %></strong>
+       <div class="toc-widget-list">
+            <%- toc(page.content) %>
+        </div>
+    </div>
+  </div>
+<% } %>

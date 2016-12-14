@@ -59,7 +59,13 @@ fancybox: true
 
 # Sidebar
 sidebar: right
+# 目录展示位置，有两种选择，post为文章内部右侧；widget为sidebar形式展示，在markdown文件中通过toc:false可以指定某文章不展示目录
+content_position: widget
+# true目录将会浮动固定位置，false则相反，当且仅当content_position=widget时该设置值有效
+content_display_fixed: true
+
 widgets:
+- post_content      # 文章目录
 - category          # 归类
 - tag               # 标签
 - tagcloud          # 云标签

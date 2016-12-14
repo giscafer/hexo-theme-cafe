@@ -1,4 +1,4 @@
-<% if (!is_archive() && site.tags.length){ %>
+<% if (tag || index && site.tags.length){ %>
   <div class="widget-wrap">
     <h3 class="widget-title tagcloud"><%= __('tagcloud') %></h3>
     <div class="widget tagcloud">

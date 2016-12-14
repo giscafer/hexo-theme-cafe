@@ -20,9 +20,9 @@
         <% } %>
       <% } else { %>
         <!-- Table of Contents -->
-        <% if (!index && post.toc){ %>
+        <% if (!index && post.toc!==false && toc(post.content) && theme.content_position==='post'){ %>
         <div id="toc" class="toc-article">
-        <strong class="toc-title">文章目录</strong>
+        <strong class="toc-title"><%= __('post_content') %></strong>
         <%- toc(post.content) %>
         </div>
         <% } %>

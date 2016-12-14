@@ -1,4 +1,4 @@
-<% if (!is_tag() && site.posts.length){ %>
+<% if (archive || index &&  site.posts.length){ %>
   <div class="widget-wrap">
     <h3 class="widget-title archive"><%= __('archive_a') %></h3>
     <div class="widget">

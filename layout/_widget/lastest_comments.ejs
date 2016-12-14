@@ -1,4 +1,4 @@
-<% if ((page.path=='/index.html' || page.path=='index.html')  && theme.duoshuo_shortname){%>
+<% if (index  && theme.duoshuo_shortname){%>
   <div class="widget-wrap">
     <h3 class="widget-title lastest-comments"><%= __('lastest_comments') %></h3>
     <div class="widget">
@@ -6,7 +6,7 @@
     </div>
   </div>
 <% } %>
-<% if (!theme.duoshuo_shortname){ %>
+<% if (index && !theme.duoshuo_shortname){ %>
    <div class="widget-wrap">
     <h3 class="widget-title lastest-comments"><%= __('lastest_comments') %></h3>
     <div class="widget">

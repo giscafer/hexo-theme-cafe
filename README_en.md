@@ -55,7 +55,13 @@ fancybox: true
 
 # Sidebar
 sidebar: right
+# post:show in the right of post page;widget:show as a widget
+content_position: widget
+# content will diplay as fixed style when setting true 
+content_display_fixed: true
+
 widgets:
+- post_content      # post content
 - category
 - tagcloud
 - recent_posts
@@ -128,6 +134,9 @@ Cafe provides**7**built-in widgets:
 - hot_comment_posts
 
 All of them are enabled by default. You can edit them in `widget` setting.
+
+## [开发历史 Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)
+
 
 
 ## License
