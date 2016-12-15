@@ -1,0 +1,9 @@
+ <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
+    <%- partial('./sidebar', 
+    {index:page.path=='index.html',
+    archive:url.includes('/archives/'),
+    postObj:page,
+    tag:url.includes('/tags/'),
+    category:url.includes('/categories/')
+    }) %>
+<% } %>
