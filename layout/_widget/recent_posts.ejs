@@ -1,4 +1,4 @@
-<% if (index && site.posts.length || (!index && postObj.toc===false)){ %>
+<% if (index && site.posts.length || (!index && (postObj.toc===false || !toc(postObj.content || 'giscafer')))){ %>
   <div class="widget-wrap">
     <h3 class="widget-title recent-posts"><%= __('recent_posts') %></h3>
     <div class="widget">

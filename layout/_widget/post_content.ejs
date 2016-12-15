@@ -1,5 +1,4 @@
-<% if (!index && theme.content_position==='widget' && !archive && !category && !tag &&  postObj.toc!==false){ %>
-  <% if (toc(postObj.content)){ %>
+<% if (!index && theme.content_position==='widget' && toc(postObj.content || 'giscafer') &&  postObj.toc!==false){ %>
     <div class="widget-wrap">
     <% if (theme.content_position==='widget' && theme.content_display_fixed===true){ %>
       <div class="widget" id="toc-widget-fixed">
@@ -8,9 +7,8 @@
       <% } %>
         <strong class="toc-title"><%= __('post_content') %></strong>
         <div class="toc-widget-list">
-              <%- toc(postObj.content) %>
+              <%- toc(postObj.content || 'giscafer') %>
           </div>
       </div>
     </div>
-  <% } %>
 <% } %>
