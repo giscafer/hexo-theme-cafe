@@ -1,5 +1,8 @@
 title: Images
 date: 2016-11-29 22:46:49
+categories: 
+- Cafe演示
+- images
 ---
 
 This is a image test post.

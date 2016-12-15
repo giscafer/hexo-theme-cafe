@@ -1,6 +1,9 @@
 title: Excerpts
 date: 2013-12-29 00:23:23
 tags:
+categories: 
+- Cafe演示
+- excerpts
 ---
 
 The following contents should be invisible in home/archive page.

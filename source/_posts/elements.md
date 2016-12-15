@@ -1,6 +1,9 @@
 title: Elements
 date: 2016-11-29 23:29:08
 tags:
+categories: 
+- Cafe演示
+- elements
 ---
 
 The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don't forget to redefine the style by yourself.

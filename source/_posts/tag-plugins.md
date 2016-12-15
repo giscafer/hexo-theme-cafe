@@ -1,6 +1,10 @@
 title: Tag Plugins
 date: 2016-11-30 10:14:39
 tags:
+- cafe
+categories: 
+- Cafe演示
+- 测试
 ---
 
 This post is used for testing tag plugins. See [docs](http://zespia.tw/hexo/docs/tag-plugins.html) for more info.

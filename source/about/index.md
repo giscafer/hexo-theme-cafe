@@ -3,14 +3,22 @@ title: hexo-theme-cafe
 
 Cafe 主题旨在追求简约、操作简单、阅读舒适度。 英文版介绍 [Read in English](./README_en.md)
 
-Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)
+Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)，目前版本主要调整了整体的样式，布局细调，以及新增一些widget等，后期会在使用的过程中不断进行调整。
 
+（色调有点像阮大神博客？是的，有借参考，个人觉得看久了眼睛舒服，如果后期调整或者改动大，该版本也会保留，喜欢的朋友拿去）
 
 PC端体验：http://cafe.giscafer.com/ 或参考本人博客 [Giscafer's blog](http://giscafer.com)
 
 响应式兼容手机端，扫码预览演示demo：
 
 ![cafe-qrcode](https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/cafe-qrcode.png)
+
+
+## 效果截图
+
+![PC演示](https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/assets/pc-display.gif)
+
+![Mobile演示](https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/assets/mobie-display.gif)
 
 
 ## 使用
@@ -43,13 +51,22 @@ menu:
   归档: /archives
 rss: /atom.xml
 
+# footer底部显示联系邮箱（在博客配置文件下添加email配置也是一样的效果）
+email: 'youremail@outlook.com'
+
 # Content
 excerpt_link: 继续阅读全文 »
 fancybox: true
 
 # Sidebar
 sidebar: right
+# 目录展示位置，有两种选择，post为文章内部右侧；widget为sidebar形式展示，在markdown文件中通过toc:false可以指定某文章不展示目录
+content_position: widget
+# true目录将会浮动固定位置，false则相反，当且仅当content_position=widget时该设置值有效
+content_display_fixed: true
+
 widgets:
+- post_content      # 文章目录
 - category          # 归类
 - tag               # 标签
 - tagcloud          # 云标签
@@ -101,6 +118,16 @@ fb_app_id:
 
 ## Features
 
+### 社区化
+
+支持国内外主流社区分享：
+
+![share](./assets/share.png)
+
+支持`Disqus`与`多说`两种方式评论
+
+![share](./assets/duoshuo_comment.png)
+
 ### Fancybox
 
 Cafe 使用`Fancybox` 展示相册、图片。 您可以使用减记语法或fancybox标签插件添加你的照片。
@@ -125,8 +152,10 @@ Cafe 主题提供**7**个内置 widgets:
 
 你可以在主题配置文件 `widget` 设置选项设置需要的 widgets。
 
+## [开发历史 Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)
+
 
 ## Github
 
-欢迎Star:::[hexo-theme-cafe](https://github.com/giscafer/hexo-theme-cafe/)
+[hexo-theme-cafe](https://github.com/giscafer/hexo-theme-cafe/)
 

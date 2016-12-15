@@ -2,6 +2,7 @@ title: 多说评论测试
 date: 2016-11-30 11:30:26
 tags: 测试
 categories: 
+- 技术
 - 多说
 ---
 

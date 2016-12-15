@@ -1,6 +1,9 @@
 title: Videos
 date: 2016-11-30 09:19:15
 tags:
+categories: 
+- Cafe演示
+- videos
 ---
 
 This is a video test post.

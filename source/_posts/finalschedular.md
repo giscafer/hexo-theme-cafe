@@ -2,7 +2,9 @@
 title: mapshaper-plus对地图数据编辑并导出Echarts地图
 date: 2016-11-29 15:59:36
 tags: mapshaper
+toc: true
 categories:
+- 技术
 - JavaScript
 ---
 

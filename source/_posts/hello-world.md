@@ -2,6 +2,7 @@ title: Hello World
 date: 2016-11-28 17:49:32
 tags:
 categories: 
+- 技术
 - Hexo
 ---
 
