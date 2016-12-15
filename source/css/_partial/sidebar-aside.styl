@@ -44,4 +44,9 @@
   ul, ol, dl
     ul, ol, dl
       margin-left: 15px
-      list-style: disc
+      // list-style: disc
+#categories
+    ul.category-list-child li >a:before
+        content: "\f0da"
+        @extend $widget-block
+        color:color-grey
