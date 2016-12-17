@@ -82,6 +82,7 @@ index_widgets:
 
 # widget behavior
 archive_type: 'monthly'
+# 分类是否显示文章数量
 show_count: false
 
 # 标签云TagClound

@@ -45,7 +45,8 @@ index_widgets:
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+# 分类是否显示文章数量
+show_count: true
 
 # 标签云TagClound
 # 如果启动，则标签云颜色为随机

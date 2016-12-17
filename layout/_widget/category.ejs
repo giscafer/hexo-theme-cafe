@@ -1,8 +1,8 @@
 <% if (category || index && site.categories.length){ %>
   <div class="widget-wrap">
     <h3 class="widget-title categories"><%= __('categories') %></h3>
-    <div class="widget">
-      <%- list_categories({show_count: theme.show_count}) %>
+    <div class="widget" id="categories">
+      <%- list_categories({show_count: theme.show_count,depth: 2}) %>
     </div>
   </div>
 <% } %>
