@@ -122,11 +122,11 @@ fb_app_id:
 
 支持国内外主流社区分享：
 
-![share](./assets/share.png)
+![share](https://github.com/giscafer/hexo-theme-cafe/raw/master/assets/share.png)
 
 支持`Disqus`与`多说`两种方式评论
 
-![share](./assets/duoshuo_comment.png)
+![share](https://github.com/giscafer/hexo-theme-cafe/raw/master/assets/assets/duoshuo_comment.png)
 
 ### Fancybox
 
