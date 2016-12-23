@@ -3,6 +3,38 @@
     <%- partial('article', {post: post, index: true}) %>
   <% }) %>
 <% } else { %>
+<% 
+    var yearData=[];
+    var length = 0;
+    var lang = page.lang || page.language || config.language;
+    site.posts.sort('date', -1).forEach(function(post) {
+        // Clone the date object to avoid pollution
+        var date = post.date.clone();
+
+        if (config.timezone) date = date.tz(config.timezone);
+        if (lang) date = date.locale(lang);
+
+        var year = date.year();
+        var month = date.month() + 1;
+        var name = date.format('YYYY');
+        var lastData = yearData[length - 1];
+
+        if (!lastData || lastData.name !== name) {
+          length = yearData.push({
+            name: name,
+            year: year,
+            month: month,
+            count: 1
+          });
+        } else {
+          lastData.count++;
+        }
+    });
+    var yearObject={};
+     yearData.forEach(function(item){
+        yearObject[item.name]=item.count;
+     });
+  %>
   <% var last; %>
   <% page.posts.each(function(post, i){ %>
     <% var year = post.date.year(); %>
@@ -15,6 +47,7 @@
         <div class="archive-year-wrap">
           <a href="<%- url_for(config.archive_dir + '/' + year) %>" class="archive-year"><%= year %></a>
         </div>
+         <span class="archive-year-post"><%= yearObject[year] %> post  this year</span>
         <div class="archives">
     <% } %>
     <%- partial('archive-post', {post: post, even: i % 2 == 0}) %>

@@ -1,5 +1,7 @@
 .archives-wrap
-  margin: block-margin 0
+  margin: 50px 0 50px 120px;
+  @media mq-mobile
+     margin: 50px 0
 
 .archives
   clearfix()
@@ -10,12 +12,17 @@
 .archive-year
   @extend $block-caption
 
-.archives
+.archive-year-post
+  color: color-grey
+  font-size: 0.85em
+  margin-left:1em
+
+/*.archives
   column-gap: 10px
   @media mq-tablet
     column-count: 2
   @media mq-normal
-    column-count: 3
+    column-count: 3*/
 
 .archive-article
   avoid-column-break()
@@ -23,12 +30,11 @@
 .archive-article-inner
   // @extend $block
   padding: 10px
-  margin-bottom: 15px
 
 .archive-article-title
+  margin-left:1em;
   color: color-default
   transition: color 0.2s
-  line-height: line-height
   &:hover
     color: color-link
 
@@ -36,10 +42,10 @@
   margin-top: 1em
 
 .archive-article-date
+  float:left
   color: color-grey
   text-decoration: none
   font-size: 0.85em
-  line-height: 1em
   margin-bottom: 0.5em
   display: block
 
