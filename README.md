@@ -126,7 +126,7 @@ fb_app_id:
 
 支持`Disqus`与`多说`两种方式评论
 
-![share](https://github.com/giscafer/hexo-theme-cafe/raw/master/assets/assets/duoshuo_comment.png)
+![share](https://github.com/giscafer/hexo-theme-cafe/raw/master/assets/duoshuo_comment.png)
 
 ### Fancybox
 
