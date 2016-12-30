@@ -1,0 +1,13 @@
+<img class="back-to-top-btn" src="/images/fly-to-top.png">Back to Top</img>
+
+<script>
+// Elevator script included on the page, already.
+
+window.onload = function() {
+  var elevator = new Elevator({
+    selector:'.back-to-top-btn',
+    element: document.querySelector('.back-to-top-btn'),
+    duration: 1000 // milliseconds
+  });
+}
+</script>
