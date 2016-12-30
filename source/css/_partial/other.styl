@@ -6,9 +6,14 @@
     display: none
     right:30px
     bottom: 100px
-    // background-image: url(../../images/fly-to-top.png)
     z-index:200px
     cursor: pointer
     &:hover{
         border: 0.5px dashed color-grey5
     }
+    @media mq-mobile
+        width: auto
+        height: 60px
+        &:hover{
+            border: none
+        }
