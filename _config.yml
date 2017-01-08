@@ -12,13 +12,26 @@ email: 'youemail@outlook.com'
 excerpt_link: 继续阅读全文 »
 fancybox: true
 
-# 侧边栏 Sidebar
+# 启用social widgets时有效
+# 社交widget文本字体，不填写则不显示title
+social_title: Follow me
+# Social links 社交链接
+social:
+  github: https://github.com/giscafer
+  weibo: http://weibo.com/laohoubin
+  zhihu: http://www.zhihu.com/people/giscafer
+  email: 'youemail@outlook.com'
+
+
+
+# 侧边栏 Sidebar，目前仅支持right
 sidebar: right
 # 目录展示位置，有两种选择，post为文章内部右侧；widget为sidebar形式展示，在markdown文件中通过toc:false可以指定某文章不展示目录
 content_position: widget
 # true目录将会浮动固定位置，false则相反，当且仅当content_position=widget时该设置值有效
 content_display_fixed: true
 widgets:
+- social
 - post_content
 - category
 - tagcloud

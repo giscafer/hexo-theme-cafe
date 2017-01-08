@@ -1,0 +1,49 @@
+.follow-title
+  @extend $block-caption
+  text-transform:none !important
+
+.follow
+    // color: red !important
+    text-align: center !important
+    font-size: 2em !important
+    line-height:1em !important
+    
+    a
+     color:#50504f !important
+     text-decoration: none !important
+    .github:before
+        content: "\f092" !important
+        @extend $follow-block
+       
+    .github:hover
+        color:#333
+        cursor: pointer
+        background-color: color-background
+    .weibo:before
+        content: "\f18a" !important
+        @extend $follow-block
+    .weibo:hover
+        color:#333
+        cursor: pointer
+        background-color: color-background
+    .email:before
+        content: "\f0e0" !important
+        @extend $follow-block
+    .email:hover
+        color:#333
+        cursor: pointer
+        background-color: color-background
+    .zhihu:before
+        content: "\f0ac" !important
+        @extend $follow-block
+    .zhihu:hover
+        color:#333
+        cursor: pointer
+        background-color: color-background
+    .wechat:before
+        content: "\f1d7" !important
+        @extend $follow-block
+    .wechat:hover
+        color:#333
+        cursor: pointer
+        background-color: color-background
