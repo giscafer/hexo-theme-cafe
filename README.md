@@ -47,7 +47,7 @@ PC端体验：http://cafe.giscafer.com/ 或参考本人博客 [Giscafer's blog](
 
 主题 `themes/cafe/_config.yml` 文件内容参考说明配置
 
-[具体见_config.yml文件注释说明](./config.yml)
+配置教程具体见[_config.yml文件](./_config.yml)注释说明
 
 ## Features
 
@@ -89,3 +89,9 @@ Cafe 主题提供**8**个内置 widgets:
 ## License
 
 MIT
+
+---
+
+> [giscafer.com](http://giscafer.com) &nbsp;&middot;&nbsp;
+> GitHub [@giscafer](https://github.com/giscafer) &nbsp;&middot;&nbsp;
+> Weibo [@Nickbing Lao](https://weibo.com/laohoubin)
