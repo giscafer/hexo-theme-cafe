@@ -2,7 +2,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title tagcloud"><%= __('tagcloud') %></h3>
     <div class="widget tagcloud">
-      <%- tagcloud(site.tags, {"color":!!theme.tagcloud_color,start_color:"#0000FF",end_color:"#EE82EE"}) %>
+      <%- tagcloud(site.tags, {"min_font":14,"max_font":25,"color":!!theme.tagcloud_color,start_color:"#0000FF",end_color:"#EE82EE"}) %>
     </div>
   </div>
 <% } %>
