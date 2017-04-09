@@ -73,7 +73,7 @@ Cafe 使用`Fancybox` 展示相册、图片。 您可以使用减记语法或fan
 
 你可以设置`sidebar` 配置侧边栏，有 `left`、`right` 二种选择
 
-Cafe 主题提供**8**个内置 widgets:
+Cafe 主题提供以下内置 widgets:
 - social            # 社交账号链接
 - category          # 归类
 - tag               # 标签
@@ -82,6 +82,7 @@ Cafe 主题提供**8**个内置 widgets:
 - recent_posts      # 最新文章
 - lastest_comments  # 最新评论
 - hot_comment_posts # 热评文章
+- friendly_link     # 友情链接
 
 你可以在主题配置文件 `widget` 设置选项设置需要的 widgets。
 

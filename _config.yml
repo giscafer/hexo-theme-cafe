@@ -22,7 +22,10 @@ social:
   zhihu: http://www.zhihu.com/people/giscafer
   email: 'youemail@outlook.com'
 
-
+# Friendly links 友情链接
+links:
+  giscafer's blog: http://giscafer.com
+  GIS520社区: http://www.gis520.com
 
 # 侧边栏 Sidebar，目前仅支持right
 sidebar: right
@@ -39,6 +42,7 @@ widgets:
 - lastest_comments
 - hot_comment_posts
 - archive
+- friendly_link
 
 # 提供以下 7 个内置组件
 # - post_content      # 文章目录
@@ -49,6 +53,7 @@ widgets:
 # - recent_posts      # 最新文章
 # - lastest_comments  # 最新评论
 # - hot_comment_posts # 热评文章
+# - friendly_link # 友情链接
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:

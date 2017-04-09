@@ -1,0 +1,14 @@
+<% if (index && theme.links){ %>
+<div class="widget-wrap">
+    <h3 class="widget-title"><%= __('friendly_link') %></h3>
+    <div class="widget">
+        <ul>
+            <% for (var key in theme.links){ %>
+            <li>
+                <a href="<%- theme.links[key] %>"><%= key %></a>
+            </li>
+            <% } %>
+        </ul>
+    </div>
+</div>
+<% } %>
