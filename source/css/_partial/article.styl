@@ -84,12 +84,13 @@
     font-size: 1.4em
     margin: line-height 20px
     padding: 0.5em 1em
+    overflow:auto
     border-left-style: solid
     border-left-width: 10px
-    border-top-left-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em
+    border-bottom-left-radius: 0.5em
     border-color: #D6DBDF
-    background: none repeat scroll 0 0 rgba(102,128,153,.05);
+    background: none repeat scroll 0 0 rgba(102,128,153,.05)
     footer
       font-size: font-size
       margin: line-height 0
@@ -98,6 +99,10 @@
         &:before
           content: "—"
           padding: 0 0.5em
+    @media mq-mobile
+      font-size: 1em
+      margin: 1.2em 0
+      
   .pullquote
     text-align: left
     width: 45%
