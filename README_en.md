@@ -8,7 +8,7 @@ Online Demo：http://cafe.giscafer.com/
 
 There is a demo On a mobile phone：
 
-![cafe-qrcode](./cafe-qrcode.png)
+<img src="https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/cafe-qrcode.png" width="200"/>
 
 
 ## [Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)

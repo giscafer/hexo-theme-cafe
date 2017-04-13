@@ -1,6 +1,6 @@
 # hexo-theme-cafe
 
-Cafe 主题旨在追求简约、操作简单、阅读舒适度。 英文版介绍 [Read in English](./README_en.md)
+Cafe 主题旨在追求简约、操作简单、阅读舒适度。 英文版介绍 [Read in English](https://github.com/giscafer/hexo-theme-cafe/blob/master/README_en.md)
 
 Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)，目前版本主要调整了整体的样式，布局细调，以及新增一些widget等，后期会在使用的过程中不断进行调整。
 
@@ -10,7 +10,7 @@ PC端体验：http://cafe.giscafer.com/ 或参考本人博客 [Giscafer's blog](
 
 响应式兼容手机端，扫码预览演示demo：
 
-![cafe-qrcode](./cafe-qrcode.png)
+<img src="https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/cafe-qrcode.png" width="200"/>
 
 ## [开发历史 Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)
 
