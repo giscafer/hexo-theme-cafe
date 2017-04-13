@@ -138,7 +138,7 @@ Cafe provides**7**built-in widgets:
 All of them are enabled by default. You can edit them in `widget` setting.
 
 
-## [Buy me a coffee](https://github.com/giscafer/buy-me-a-coffee)
+## [Buy me a coffee](https://github.com/giscafer/buy-me-a-coffee/blob/master/README.md)
 
 ## License
 

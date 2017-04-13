@@ -89,7 +89,7 @@ Cafe 主题提供以下内置 widgets:
 
 ## 打赏
 
-###  [打赏一下 Buy me a coffee](https://github.com/giscafer/buy-me-a-coffee)
+###  [打赏一下 Buy me a coffee](https://github.com/giscafer/buy-me-a-coffee/blob/master/README.md)
 
 ## License
 
