@@ -11,6 +11,8 @@ There is a demo On a mobile phone：
 ![cafe-qrcode](./cafe-qrcode.png)
 
 
+## [Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)
+
 ## ScreenShot
 
 ![PC display](https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/assets/pc-display.gif)
@@ -135,9 +137,8 @@ Cafe provides**7**built-in widgets:
 
 All of them are enabled by default. You can edit them in `widget` setting.
 
-## [Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)
 
-
+## [Buy me a coffee](https://github.com/giscafer/buy-me-a-coffee)
 
 ## License
 

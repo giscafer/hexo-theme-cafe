@@ -87,6 +87,10 @@ Cafe 主题提供以下内置 widgets:
 你可以在主题配置文件 `widget` 设置选项设置需要的 widgets。
 
 
+## 打赏
+
+###  [打赏一下 Buy me a coffee](https://github.com/giscafer/buy-me-a-coffee)
+
 ## License
 
 MIT
