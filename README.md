@@ -57,9 +57,8 @@ PC端体验：http://cafe.giscafer.com/ 或参考本人博客 [Giscafer's blog](
 
 ![share](https://github.com/giscafer/hexo-theme-cafe/raw/master/assets/share.png)
 
-支持`Disqus`与`多说`两种方式评论
+支持`Disqus`与`网易云跟帖`两种方式评论
 
-![share](https://github.com/giscafer/hexo-theme-cafe/raw/master/assets/duoshuo_comment.png)
 
 ### Fancybox
 
