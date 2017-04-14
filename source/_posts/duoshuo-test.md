@@ -9,5 +9,9 @@ categories:
 This is a duoshuo test post.
 
 
-> 多说插件 近期垃圾回复比较多哦。。。元芳们怎么看？？？
+>  多说评论即将关闭！！！
+
+>  测试连接
+
+>  https://github.com/giscafer/hexo-theme-cafe/issues
 
