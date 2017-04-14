@@ -1,0 +1,6 @@
+<% if (theme.duoshuo_shortname){ %>
+    	<script type="text/javascript">
+        var duoshuoQuery = {short_name:"<%=theme.duoshuo_shortname%>"};
+      </script>
+      <%- js('duoshuo/embed') %>
+<% } %>

@@ -74,9 +74,16 @@ tagcloud_color: false
 # 其他参数
 google_analytics:
 favicon: /favicon.png
+
+#comments 评论插件
+# 关闭统一为 false
 # 若使用多说，此处填写的是多说评论账号ID
-# 若使用Disqus，请在博客 config 文件中填写disqus_shortname，并设置duosuo: false关闭多说评论
-duoshuo_shortname: false
+## 网易云跟帖
+gentie_productKey: e2fb4051c49842688ce669e634bc983f 
+## 多说 （2017年6月将关闭）
+duoshuo_shortname: false 
+## disqus
+disqus_shortname: false
 google_plus:
 fb_admins:
 fb_app_id:
