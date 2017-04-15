@@ -120,7 +120,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cafe.giscafer.com/2017/04/14/gentie-test/" data-id="cj1hzf45o000aicz5ckid2yeq" class="article-share-link">分享</a>
+      <a data-url="http://cafe.giscafer.com/2017/04/14/gentie-test/" data-id="cj1jgf35l000aigz5p1uwn3wj" class="article-share-link">分享</a>
       
       
       
@@ -141,6 +141,11 @@
       </div>
     </a>
   
+  
+    <a href="/2017/04/15/mathjax-test/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">Mathjax测试帖</div>
+    </a>
   
 </nav>
 
@@ -248,6 +253,30 @@ window.onload = function() {
     <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
     
 
+  
+
+
+
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      })
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      })
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 

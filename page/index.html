@@ -96,7 +96,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cafe.giscafer.com/page/index.html" data-id="cj1hzf4590003icz5ozxfcy8k" class="article-share-link">分享</a>
+      <a data-url="http://cafe.giscafer.com/page/index.html" data-id="cj1jgf3570002igz5nlpj28kr" class="article-share-link">分享</a>
       
       
       
@@ -139,6 +139,10 @@
       <ul>
         
           <li>
+            <a href="/2017/04/15/mathjax-test/">Mathjax测试帖</a>
+          </li>
+        
+          <li>
             <a href="/2017/04/14/gentie-test/">网易云跟帖使用说明&amp;测试</a>
           </li>
         
@@ -152,10 +156,6 @@
         
           <li>
             <a href="/2016/11/30/tag-plugins/">Tag Plugins</a>
-          </li>
-        
-          <li>
-            <a href="/2016/11/30/videos/">Videos</a>
           </li>
         
       </ul>
@@ -226,6 +226,30 @@ window.onload = function() {
     <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
     
 
+  
+
+
+
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      })
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      })
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 

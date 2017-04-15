@@ -78,7 +78,7 @@
         <div class="archive-year-wrap">
           <a href="/archives/2017" class="archive-year">2017</a>
         </div>
-         <span class="archive-year-post">1 post  this year</span>
+         <span class="archive-year-post">2 post  this year</span>
         <div class="archives">
     
     <article class="archive-article archive-type-post">
@@ -108,7 +108,7 @@
         <div class="archive-year-wrap">
           <a href="/archives/2016" class="archive-year">2016</a>
         </div>
-         <span class="archive-year-post">10 post  this year</span>
+         <span class="archive-year-post">9 post  this year</span>
         <div class="archives">
     
     <article class="archive-article archive-type-post">
@@ -167,7 +167,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title tagcloud">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Bar/" style="font-size: 14px;">Bar</a> <a href="/tags/Baz/" style="font-size: 14px;">Baz</a> <a href="/tags/Foo/" style="font-size: 14px;">Foo</a> <a href="/tags/cafe/" style="font-size: 14px;">cafe</a> <a href="/tags/mapshaper/" style="font-size: 14px;">mapshaper</a> <a href="/tags/测试/" style="font-size: 25px;">测试</a>
+      <a href="/tags/cafe/" style="font-size: 14px;">cafe</a> <a href="/tags/mapshaper/" style="font-size: 14px;">mapshaper</a> <a href="/tags/mathjax/" style="font-size: 14px;">mathjax</a> <a href="/tags/测试/" style="font-size: 25px;">测试</a>
     </div>
   </div>
 
@@ -177,6 +177,10 @@
     <h3 class="widget-title recent-posts">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/04/15/mathjax-test/">Mathjax测试帖</a>
+          </li>
         
           <li>
             <a href="/2017/04/14/gentie-test/">网易云跟帖使用说明&amp;测试</a>
@@ -192,10 +196,6 @@
         
           <li>
             <a href="/2016/11/30/tag-plugins/">Tag Plugins</a>
-          </li>
-        
-          <li>
-            <a href="/2016/11/30/videos/">Videos</a>
           </li>
         
       </ul>
@@ -266,6 +266,30 @@ window.onload = function() {
     <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
     
 
+  
+
+
+
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      })
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      })
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 
