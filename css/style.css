@@ -1636,6 +1636,28 @@ span.ua .location:before {
   cursor: pointer;
   background-color: #f5f5d5 /*#eee*/;
 }
+.wechat-widget {
+  text-align: center;
+  margin: 1px auto;
+  overflow: hidden;
+}
+.wechat-widget > img {
+  border-radius: 2em;
+  -webkit-transition: -webkit-transform 6s ease-out;
+  -moz-transition: -moz-transform 6s ease-out;
+  -o-transition: -o-transform 6s ease-out;
+  -ms-transition: -ms-transform 6s ease-out;
+}
+.wechat-widget > img:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
 @media screen and (min-width: 768px) {
   #sidebar {
     display: inline;
