@@ -47,3 +47,20 @@
         color:#333
         cursor: pointer
         background-color: color-background
+
+.wechat-widget
+    text-align: center;
+    margin: 1px auto;
+    overflow: hidden;
+    & > img
+        border-radius: 2em
+        -webkit-transition: -webkit-transform 6s ease-out
+        -moz-transition: -moz-transform 6s ease-out
+        -o-transition: -o-transform 6s ease-out
+        -ms-transition: -ms-transform 6s ease-out
+        &:hover
+            -webkit-transform: rotateZ(360deg)
+            -moz-transform: rotateZ(360deg)
+            -o-transform: rotateZ(360deg)
+            -ms-transform: rotateZ(360deg)
+            transform: rotateZ(360deg)

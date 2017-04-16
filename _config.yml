@@ -22,6 +22,10 @@ social:
   zhihu: http://www.zhihu.com/people/giscafer
   email: 'youemail@outlook.com'
 
+# WeChat 微信公众号二维码url
+wechat_url: http://giscafer.com/static/images/qrcode_giscafer.jpg ## 启用wechat widget才会生效
+
+
 # Friendly links 友情链接
 links:
   giscafer's blog: http://giscafer.com
@@ -41,8 +45,9 @@ widgets:
 - recent_posts
 - archive
 - friendly_link
+- wechat
 
-# 提供以下 7 个内置组件
+# 提供以下内置组件
 # - post_content      # 文章目录
 # - category          # 归类
 # - tag               # 标签
@@ -51,7 +56,9 @@ widgets:
 # - recent_posts      # 最新文章
 # - lastest_comments  # 最新评论
 # - hot_comment_posts # 热评文章
-# - friendly_link # 友情链接
+# - friendly_link     # 友情链接
+# - wechat            # 微信公众号
+
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -87,7 +94,7 @@ favicon: /favicon.png
 # 若使用多说，此处填写的是多说评论账号ID
 ## 网易云跟帖
 ### 使用说明 http://cafe.giscafer.com/2017/04/14/gentie-test/
-gentie_productKey: e2fb4051c49xxx8ce669e634bc983f 
+gentie_productKey: e2fb4051c49842xxce669e634bc983f 
 ## 多说 （2017年6月将关闭）
 duoshuo_shortname: false 
 ## disqus
