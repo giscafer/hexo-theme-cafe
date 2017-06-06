@@ -23,12 +23,12 @@ social:
   email: 'youemail@outlook.com'
 
 # WeChat 微信公众号二维码url
-wechat_url: http://giscafer.com/static/images/qrcode_giscafer.jpg ## 启用wechat widget才会生效
+wechat_url: http://blog.giscafer.com/static/images/qrcode_giscafer.jpg ## 启用wechat widget才会生效
 
 
 # Friendly links 友情链接
 links:
-  giscafer's blog: http://giscafer.com
+  giscafer's blog: http://blog.giscafer.com
   GIS520社区: http://www.gis520.com
 
 # 侧边栏 Sidebar，目前仅支持right
@@ -98,7 +98,7 @@ gentie_productKey: e2fb4051c49842688ce669e634bc983f
 ## 畅言 (不使用请将appid和appkey都设空或者false) 
 ## 使用说明：http://changyan.kuaizhan.com/static/help/
 changyan_appid: cyt3ae9nd  ##appid
-changyan_appkey:   ##appkey
+changyan_appkey: 0eb7ff551b3989719a866b4f991a6e48  ##appkey
 ## disqus
 disqus_shortname: false
 google_plus:
