@@ -1,8 +1,8 @@
 <% if (post.comments ){ %>
   <div class="comments" id="comments">
     <% if  (theme.duoshuo_shortname){ %>
-      <div class="ds-thread" data-thread-key="{{ page.path }}"
-           data-title="{{ page.title }}" data-url="{{ page.permalink }}">
+      <div class="ds-thread" data-thread-key="<%= page.path %>"
+           data-title="<%= page.title %>" data-url="<%= page.permalink %>">
       </div>
       <% } %>
      <% if  (theme.disqus_shortname){ %>
@@ -17,6 +17,9 @@
       <% } %>
        <% if  (theme.gentie_productKey){ %>
       <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    <% } %>
+       <% if  (theme.changyan_appid && theme.changyan_appkey){ %>
+            <div id="SOHUCS" sid="<%= page.path %>"> </div>
     <% } %>
   </div>
  <% } %>

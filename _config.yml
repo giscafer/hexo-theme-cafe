@@ -94,9 +94,11 @@ favicon: /favicon.png
 # 若使用多说，此处填写的是多说评论账号ID
 ## 网易云跟帖
 ### 使用说明 http://cafe.giscafer.com/2017/04/14/gentie-test/
-gentie_productKey: e2fb4051c49842xxce669e634bc983f 
-## 多说 （2017年6月将关闭）
-duoshuo_shortname: false 
+gentie_productKey: e2fb4051c49842688ce669e634bc983f 
+## 畅言 (不使用请将appid和appkey都设空或者false) 
+## 使用说明：http://changyan.kuaizhan.com/static/help/
+changyan_appid: cyt3ae9nd  ##appid
+changyan_appkey:   ##appkey
 ## disqus
 disqus_shortname: false
 google_plus:
