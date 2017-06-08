@@ -89,16 +89,22 @@ mathjax:
 google_analytics:
 favicon: /favicon.png
 
-#comments 评论插件
+# comments 评论插件
 # 关闭统一为 false
-# 若使用多说，此处填写的是多说评论账号ID
+
 ## 网易云跟帖
 ### 使用说明 http://cafe.giscafer.com/2017/04/14/gentie-test/
-gentie_productKey: e2fb4051c49842688ce669e634bc983f 
+gentie_productKey: false
+
 ## 畅言 (不使用请将appid和appkey都设空或者false) 
-## 使用说明：http://changyan.kuaizhan.com/static/help/
-changyan_appid: cyt3ae9nd  ##appid
-changyan_appkey: 0eb7ff551b3989719a866b4f991a6e48  ##appkey
+### 使用说明：http://changyan.kuaizhan.com/static/help/
+changyan_appid: false  ##appid
+changyan_appkey: false  ##appkey
+## 友言
+### 使用说明
+### 填写友言用户ID http://www.uyan.cc/sites
+youyan_uid: 1935823
+
 ## disqus
 disqus_shortname: false
 google_plus:

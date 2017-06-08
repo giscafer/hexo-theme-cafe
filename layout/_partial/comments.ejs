@@ -21,5 +21,8 @@
        <% if  (theme.changyan_appid && theme.changyan_appkey){ %>
             <div id="SOHUCS" sid="<%= page.path %>"> </div>
     <% } %>
+      <% if (theme.youyan_uid){ %>
+           <div id="uyan_frame"></div>
+    <% } %>
   </div>
  <% } %>
