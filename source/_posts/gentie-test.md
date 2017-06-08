@@ -36,9 +36,14 @@ categories:
 - 3、博客网址要正确，如果是https协议，就写https:// 
 
 
-### 欢迎提issue
+### 多说评论数据导出导入
 
-https://github.com/giscafer/hexo-theme-cafe/issues
+进入多说后台管理，工具——导出数据，勾选`包含文章数据`、`包含评论数据`，点击导出评论。然后登陆网易云跟帖后台管理，进行数据导入
+
+详情参考：https://gentie.163.com/help.html#data-import
+
+
+
 
 _跟帖测试效果可以在下边回复_
 
