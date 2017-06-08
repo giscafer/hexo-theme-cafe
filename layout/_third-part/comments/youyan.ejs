@@ -1,9 +1,4 @@
 <% if (theme.youyan_uid){ %>
-<script type="text/javascript ">
-    (function () {
-        var uuid = '<%= theme.youyan_uid %>';
-        window.document.write('<script charset="utf-8" type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid='+ uuid + '"><\/script>');
-     })();
- </script>
+ <script  type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=<%= theme.youyan_uid %>"></script>
 <% } %>
 
