@@ -4,11 +4,8 @@ Cafe is aimed at the pursuit of simplicity, simple operation, reading comfort. R
 
 Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)
 
-Online Demo：http://cafe.giscafer.com/
+Online Demo：http://blog.giscafer.com/
 
-There is a demo On a mobile phone：
-
-<img src="https://raw.githubusercontent.com/giscafer/hexo-theme-cafe/master/cafe-qrcode.png" width="200"/>
 
 
 ## [Changelog](https://github.com/giscafer/hexo-theme-cafe/wiki/Changelog)

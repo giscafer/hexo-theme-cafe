@@ -106,19 +106,19 @@ changyan_appkey: false  ##appkey
 ### 填写友言用户ID http://www.uyan.cc/sites
 youyan_uid: false
 
+# gitment
+## 教程：https://imsun.net/posts/gitment-introduction/ 网站上进行查看
+gitment:
+  enable: true #如果不使用则设置false关闭
+  owner: giscafer # 你的github名称或者id id的获取方式为https://api.github.com/users/forvoid（你的名称）中的id极为github id
+  repo: giscafer.github.io # 你的留言存放的位置 我的是放在我的github的github page上面
+  client_id: 7e5dd6cdb9xxaxa4cf91a # Register a new OAuth application https://github.com/settings/applications/new 
+  client_secret: 97f37d5c27c4a511xx4fxx623d391c85cb97f8 
+
 ## disqus
 disqus_shortname: false
+
 google_plus:
 fb_admins:
 fb_app_id:
 
-# author:forvoid begin
-# 添加gitment第三方评论来自https://imsun.net/posts/gitment-introduction/
-# 可以在https://imsun.net/posts/gitment-introduction/网站上进行查看
-# 我把他的代码写到了cafe作者的源码中
-# :tada: 在配置完成后请认真阅读上面网址的指南，每个文章都会需要进行初始化ISSUE
-gitment_owner: forvoid # 你的github名称或者id id的获取方式为https://api.github.com/users/forvoid（你的名称）中的id极为github id
-gitment_repo: forvoid.github.io # 你的留言存放的位置 我的是放在我的github的github page上面
-gitment_client_id: 56eff63fef1b5b37f568 # 这个是https://imsun.net/posts/gitment-introduction/教材教我们去或者github app的自己的oauth的帐号密码
-gitment_client_secret: 4856dd988c9157b0dcf2c83c94ab4c912621d347 # 这个有一定风险 :lock:请在确认最低权限下给出。
-# author:forvoid end
