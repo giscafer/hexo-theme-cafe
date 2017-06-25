@@ -542,7 +542,9 @@ body {
 .article-title {
   text-decoration: none;
   font-size: 2em;
-  font-weight: bold;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0.2em 0;
   color: #333;
   line-height: 1.1em;
   -webkit-transition: color 0.2s;
@@ -581,7 +583,7 @@ a.article-title:hover {
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  font-weight: bold;
+  font-weight: 500;
 }
 .article-entry h1,
 .article-entry h2,
@@ -621,7 +623,7 @@ a.article-title:hover {
   border-spacing: 0;
 }
 .article-entry th {
-  font-weight: bold;
+  font-weight: 500;
   border-bottom: 3px solid #ddd;
   padding-bottom: 0.5em;
 }
@@ -826,7 +828,7 @@ a.article-title:hover {
   letter-spacing: 2px;
   color: #999;
   line-height: 1em;
-  font-weight: bold;
+  font-weight: 500;
 }
 #article-nav-newer .article-nav-caption {
   margin-right: -2px;
@@ -1657,6 +1659,47 @@ span.ua .location:before {
   -moz-transform: rotateZ(360deg);
   -ms-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
+}
+#random_posts {
+  margin-top: 2em;
+  font-family: Georgia, serif;
+}
+#random_posts ul {
+  margin-left: 1.5em;
+}
+#random_posts p,
+#random_posts li {
+  line-height: 170%;
+  list-style-type: square;
+}
+#random_posts h2 {
+  font-size: 1.58em;
+  line-height: 1.35em;
+}
+@media screen and (max-width: 479px) {
+  #random_posts h2 {
+    font-size: 1.2em;
+  }
+}
+#random_posts h1,
+#random_posts h2,
+#random_posts h3 {
+  margin: 0.4em 0 0.2em 0;
+  padding: 0 0 0.2em 0;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  border-bottom: 1px solid #d3d3d3;
+}
+#random_posts li div.post-excerpt {
+  margin-left: 1em;
+  padding-left: 0.4em;
+  border-left: 0.4em solid #808080;
+}
+#random_posts li div.post-excerpt h1,
+#random_posts li div.post-excerpt h2,
+#random_posts li div.post-excerpt h3 {
+  border-bottom: none;
 }
 @media screen and (min-width: 768px) {
   #sidebar {
