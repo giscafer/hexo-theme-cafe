@@ -38,8 +38,8 @@ content_position: widget
 # true目录将会浮动固定位置，false则相反，当且仅当content_position=widget时该设置值有效
 content_display_fixed: true
 
-# 文章底部推荐文章,false关闭
-random_posts: true
+# 文章底部推荐文章数,false关闭
+random_posts: 4
 
 widgets:
 - social
