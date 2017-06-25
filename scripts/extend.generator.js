@@ -15,13 +15,14 @@ extend.generator.register('random_post',function (locals, render, callback) {
         // console.log(item.excerpt);
         SitePosts.push({ title: item.title,date:moment(item.date).format('YYYY.MM.DD'), uri: item.path, excerpt: item.excerpt.substring(0,150) });
     })
-    fs.writeFile(filePath + 'posts.js', JSON.stringify(SitePosts), function (err) {
+   fs.writeFile(filePath + 'posts.js', JSON.stringify(SitePosts), function (err) {
         if (err) {
             console.error(err);
-            console.log('随机文章生成失败！')
+            console.log('随机文章生成失败！');
+            render();
         } else {
             console.log('随机文章生成成功！');
-            return null;
+            render();
         }
     });
     if(callback){
@@ -30,8 +31,6 @@ extend.generator.register('random_post',function (locals, render, callback) {
 });
 
 hexo.on('generateBefore', function (locals) {
-    console.log('generateBefore')
 })
-hexo.on('generateAfter', function () {
-   console.log('generateAfter')
+hexo.on('generateAfter',function (locals) {
 })
