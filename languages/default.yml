@@ -13,6 +13,7 @@ archive_a: 归档
 archive_b: 归档：%s
 page: 第 %d 页
 recent_posts: 最新文章
+random_posts: 推荐文章
 newer: 上一篇
 older: 下一篇
 share: 分享

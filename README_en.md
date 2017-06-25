@@ -65,8 +65,7 @@ widgets:
 - tagcloud
 - recent_posts
 - archive
-- lastest_comments
-- hot_comment_posts
+
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:

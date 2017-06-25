@@ -2,7 +2,7 @@
 
 Cafe 主题旨在追求简约、操作简单、阅读舒适度。 英文版介绍 [Read in English](https://github.com/giscafer/hexo-theme-cafe/blob/master/README_en.md)
 
-Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)，目前版本主要调整了整体的样式，布局细调，以及新增一些widget等，后期会在使用的过程中不断进行调整。
+灵感来自 [Landscape](https://github.com/hexojs/hexo-theme-landscape)，参考[@ruanyf](http://www.ruanyifeng.com/blog)博客调整了整体的样式，一些布局细调，以及新增一些 widge t等，后期会在使用的过程中不断进行调整。
 
 
 体验参考本人博客 [Giscafer's blog](http://blog.giscafer.com)
@@ -61,6 +61,7 @@ Inspire by [Landscape](https://github.com/hexojs/hexo-theme-landscape)，目前�
 - 网易云跟帖
 - 畅言
 - 友言
+- gitment
 
 
 
@@ -83,8 +84,6 @@ Cafe 主题提供以下内置 widgets:
 - tagcloud          # 云标签
 - archives          # 归档
 - recent_posts      # 最新文章
-- lastest_comments  # 最新评论
-- hot_comment_posts # 热评文章
 - friendly_link     # 友情链接
 
 你可以在主题配置文件 `widget` 设置选项设置需要的 widgets。

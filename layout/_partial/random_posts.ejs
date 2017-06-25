@@ -1,0 +1,20 @@
+<% if (theme.random_posts){ %>
+  <div id="random_posts">
+    <h2><%= __('random_posts') %></h2>
+    <div>
+      <ul>
+      <%  arr = site.posts.slice(); %>
+   <% for (var i, tmp, n = arr.length; n; i = Math.floor(Math.random() * n), tmp = arr[--n], arr[n] = arr[i], arr[i] = tmp); %>
+   <% arr = arr.slice(0,6);%>
+        <% arr.each(function(post){ %>
+          <li>
+           <strong><%=  date(post.date, 'YYYY.MM.DD')%>:&nbsp;&nbsp;<a href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a></strong> 
+           <div class="post-excerpt">
+               <%- post.excerpt.replace(/img/g,'').substring(0,150) %>
+           </div>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  </div>
+<% } %>

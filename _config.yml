@@ -37,6 +37,10 @@ sidebar: right
 content_position: widget
 # true目录将会浮动固定位置，false则相反，当且仅当content_position=widget时该设置值有效
 content_display_fixed: true
+
+# 文章底部推荐文章,false关闭
+random_posts: true
+
 widgets:
 - social
 - post_content
@@ -95,7 +99,7 @@ favicon: /favicon.png
 
 ## 网易云跟帖
 ### 使用说明 http://cafe.giscafer.com/2017/04/14/gentie-test/
-gentie_productKey: false
+gentie_productKey: e2fb4051c49842688ce669e634bc983f
 
 ## 畅言 (不使用请将appid和appkey都设空或者false)
 ### 使用说明：http://changyan.kuaizhan.com/static/help/
@@ -109,7 +113,7 @@ youyan_uid: false
 # gitment
 ## 教程：https://imsun.net/posts/gitment-introduction/ 网站上进行查看
 gitment:
-  enable: true #如果不使用则设置false关闭
+  enable: false #如果不使用则设置false关闭
   owner: giscafer # 你的github名称或者id id的获取方式为https://api.github.com/users/forvoid（你的名称）中的id极为github id
   repo: giscafer.github.io # 你的留言存放的位置 我的是放在我的github的github page上面
   client_id: 7e5dd6cdb9xxaxa4cf91a # Register a new OAuth application https://github.com/settings/applications/new 
