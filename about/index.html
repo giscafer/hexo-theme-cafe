@@ -147,45 +147,41 @@ git pull
   </div>
   
     
+ <script src="/jquery/jquery.min.js"></script>
   <div id="random_posts">
     <h2>推荐文章</h2>
-    <div>
-      <ul>
-      
-      
-      
-      
-        
-          <li>
-           <strong>2016.11.29:&nbsp;&nbsp;<a href="/2016/11/29/categories/">Categories</a></strong> 
-           <div class="post-excerpt">
-               
-           </div>
-          </li>
-        
-          <li>
-           <strong>2016.11.30:&nbsp;&nbsp;<a href="/2016/11/30/duoshuo-test/">评论测试</a></strong> 
-           <div class="post-excerpt">
-               
-           </div>
-          </li>
-        
-          <li>
-           <strong>2016.11.29:&nbsp;&nbsp;<a href="/2016/11/29/elements/">Elements</a></strong> 
-           <div class="post-excerpt">
-               
-           </div>
-          </li>
-        
-          <li>
-           <strong>2016.11.29:&nbsp;&nbsp;<a href="/2016/11/29/finalschedular/">mapshaper-plus对地图数据编辑并导出Echarts地图</a></strong> 
-           <div class="post-excerpt">
-               <p>Generate geojson files for Echarts Map,base on mapshaper</p>
-<p>基于<a href="https://github.com/mbloch/mapshaper">mapshaper</a>对geojson地图数据的坐标信息进行压缩编
-           </div>
-          </li>
-        
-      </ul>
+    <div class="random_posts_ul">
+      <script>
+          var random_count =4
+          var site = {BASE_URI:'/'};
+          function load_random_posts(obj) {
+              var arr=site.posts;
+              if (!obj) return;
+              // var count = $(obj).attr('data-count') || 6;
+              for (var i, tmp, n = arr.length; n; i = Math.floor(Math.random() * n), tmp = arr[--n], arr[n] = arr[i], arr[i] = tmp);
+              arr = arr.slice(0, random_count);
+              var html = '<ul>';
+            
+              for(var j=0;j<arr.length;j++){
+                var item=arr[j];
+                html += '<li><strong>' + 
+                item.date + ':&nbsp;&nbsp;<a href="' + item.path + '">' + 
+                (item.title || item.uri) + '</a></strong>'+
+                '<div class="post-excerpt">'+item.excerpt+'</div>'+
+                ' </li>';
+              }
+              $(obj).html(html + '</ul>');
+          }
+          $('.random_posts_ul').each(function () {
+              var c = this;
+              if (!site.posts || !site.posts.length){
+                  $.getJSON(site.BASE_URI + 'js/posts.js',function(json){site.posts = json;load_random_posts(c)});
+              } 
+               else{
+                load_random_posts(c);
+              }
+          });
+      </script>
     </div>
   </div>
 
