@@ -8,14 +8,19 @@ var filePath = path.join(__dirname, '../source/js/');
 /**
  * 生成随机文章
  */
-extend.generator.register('random_post',function (locals, render, callback) {
+extend.generator.register('random_post', function (locals, render, callback) {
     var posts = locals.posts;
     var SitePosts = [];
     posts.each(function (item) {
         // console.log(item.excerpt);
-        SitePosts.push({ title: item.title,date:moment(item.date).format('YYYY.MM.DD'), uri: item.path, excerpt: item.excerpt.substring(0,150) });
+        SitePosts.push({
+            title: item.title,
+            date: moment(item.date).format('YYYY.MM.DD'),
+            uri: item.path,
+            excerpt: getExcerpt(item.excerpt)
+        });
     })
-   fs.writeFile(filePath + 'posts.js', JSON.stringify(SitePosts), function (err) {
+    fs.writeFile(filePath + 'posts.js', JSON.stringify(SitePosts), function (err) {
         if (err) {
             console.error(err);
             console.log('随机文章生成失败！');
@@ -25,12 +30,18 @@ extend.generator.register('random_post',function (locals, render, callback) {
             render();
         }
     });
-    if(callback){
+    if (callback) {
         callback();
     }
 });
-
+function getExcerpt(excerpt) {
+    excerpt = excerpt.replace(/<h2 /g, '').replace(/<\/h2>/g, '')
+        .replace(/<h3 /g, '').replace(/<\/h3>/g, '')
+        .replace(/<h4 /g, '').replace(/<\/h4>/g, '')
+        .replace(/<img/g, '').replace(/<\/img>/g, '')
+    return excerpt.substring(0, 150);
+}
 hexo.on('generateBefore', function (locals) {
 })
-hexo.on('generateAfter',function (locals) {
+hexo.on('generateAfter', function (locals) {
 })
