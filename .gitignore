@@ -2,3 +2,4 @@
 node_modules
 tmp
 _config_backup.yml
+source/js/posts.js
