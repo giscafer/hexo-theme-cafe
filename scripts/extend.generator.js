@@ -39,7 +39,7 @@ function getExcerpt(excerpt) {
         .replace(/<h3 /g, '').replace(/<\/h3>/g, '')
         .replace(/<h4 /g, '').replace(/<\/h4>/g, '')
         .replace(/<img/g, '').replace(/<\/img>/g, '')
-    return excerpt.substring(0, 150);
+    return excerpt.substring(0, 120);
 }
 hexo.on('generateBefore', function (locals) {
 })
