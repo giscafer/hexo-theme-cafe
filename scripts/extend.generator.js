@@ -35,9 +35,10 @@ extend.generator.register('random_post', function (locals, render, callback) {
     }
 });
 function getExcerpt(excerpt) {
-    excerpt = excerpt.replace(/<h2 /g, '').replace(/<\/h2>/g, '')
+/*    excerpt = excerpt.replace(/<h2 /g, '').replace(/<\/h2>/g, '')
         .replace(/<img/g, '').replace(/<\/img>/g, '')
-    return excerpt.substring(0, 80);
+    return excerpt.substring(0, 80);*/
+    return "";
 }
 hexo.on('generateBefore', function (locals) {
 })
