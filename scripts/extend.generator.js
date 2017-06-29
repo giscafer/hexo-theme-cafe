@@ -36,10 +36,8 @@ extend.generator.register('random_post', function (locals, render, callback) {
 });
 function getExcerpt(excerpt) {
     excerpt = excerpt.replace(/<h2 /g, '').replace(/<\/h2>/g, '')
-        .replace(/<h3 /g, '').replace(/<\/h3>/g, '')
-        .replace(/<h4 /g, '').replace(/<\/h4>/g, '')
         .replace(/<img/g, '').replace(/<\/img>/g, '')
-    return excerpt.substring(0, 120);
+    return excerpt.substring(0, 80);
 }
 hexo.on('generateBefore', function (locals) {
 })
