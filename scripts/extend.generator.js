@@ -33,11 +33,9 @@ extend.generator.register('random_post', function (locals, render, callback) {
         if (err) {
             console.error(err);
             console.log('随机文章生成失败！');
-            render();
-        } else {
-            console.log('随机文章生成成功！');
-            render();
         }
+        render();
+
     });
     if (callback) {
         callback();
